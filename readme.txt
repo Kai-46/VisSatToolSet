@@ -26,7 +26,7 @@ Then you will see the following additional files inside the {output directory}:
     * source_after_align.jpg: this is your height map aligned to the ground-truth
     * source_after_align.cbar.jpg: color bar for source_after_align.jpg; unit is meter
     * target_after_align.jpg: this is the ground-truth height map
-    * source_after_align.cbar.jpg: color bar for target_after_align.jpg; unit is meter
+    * target_after_align.cbar.jpg: color bar for target_after_align.jpg; unit is meter
     * error_map.jpg: this is the error map
     * error_map.cbar.jpg: color bar for error_map.jpg; unit is meter
     * error_dist.jpg: distrubution of the errors
