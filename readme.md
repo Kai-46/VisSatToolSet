@@ -43,3 +43,24 @@ Then you will see the following additional files inside the {output directory}:
     * error_map.jpg: this is the error map
     * error_map.cbar.jpg: color bar for error_map.jpg; unit is meter
     * error_dist.jpg: distrubution of the errors
+
+---
+
+If you would like to skew-correct the images, you can use,
+```{r, engine='bash', count_lines}
+    python3 skew_correct.py --data_dir {path to the data we provide}
+```
+
+You will see the skew-corrected images along with camera parameters inside {data_dir}/skew_correct/.
+
+---
+Note that for perspective cameras with non-zero skew, the camera parameters are listed as:
+
+```math
+w, h, f_x, f_y, c_x, c_y, s, q_w, q_x, q_y, q_z, t_x, t_y, t_z
+```
+, while for pinhole cameras with zero skew, the camera parameters are listed as:
+
+```math
+w, h, f_x, f_y, c_x, c_y, q_w, q_x, q_y, q_z, t_x, t_y, t_z
+```
