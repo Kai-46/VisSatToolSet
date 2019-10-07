@@ -95,7 +95,7 @@ def skew_correct(data_dir):
     if os.path.exists(pinhole_img_dir):
         shutil.rmtree(pinhole_img_dir)
     os.makedirs(pinhole_img_dir)
-    pinhole_file = os.path.join(out_dir, 'pinhole_dict.json')
+    pinhole_file = os.path.join(out_dir, 'pinhole_cameras.json')
     warping_file = os.path.join(out_dir, 'affine_warpings.json')
 
     pinhole_dict = {}
