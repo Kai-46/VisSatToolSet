@@ -51,7 +51,7 @@ If you would like to skew-correct the images, you can use,
     python3 skew_correct.py --data_dir {path to the data we provide}
 ```
 
-You will see the skew-corrected images along with camera parameters inside {data_dir}/skew_correct/.
+You will see the skew-corrected images and camera parameters without skew inside {data_dir}/skew_correct/.
 
 ---
 Note that for perspective cameras with non-zero skew, the camera parameters are listed as:
