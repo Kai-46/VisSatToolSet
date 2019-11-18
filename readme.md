@@ -2,7 +2,7 @@
 
 Website: https://kai-46.github.io/VisSat/
 
-This toolset is intended to convert the point cloud from a local coorindate frame (enu) to the global one (lat, lon, alt), and then evalute it. It uses python3 instead of python2.
+This toolset is intended to convert the point cloud from a local coorindate frame (enu) to the global one (utm east, utm north, alt), and then evalute it. It uses python3 instead of python2.
 
 First install GDAL and GDAL for python on your machine according to [this page](https://mothergeo-py.readthedocs.io/en/latest/development/how-to/gdal-ubuntu-pkg.html).
 
